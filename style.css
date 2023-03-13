@@ -4,41 +4,22 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-
-body{
-    display: block;
-    
-}
-
 .cabecalho{
-    height: 90px;
+    height: 80px;
     display: flex;
-    background-color: rgba(104, 62, 143, 0.801);
-}
-nav {
-   
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding-left:  8%;
-    padding-right :  8%;
-    width:  100%;  
-    border-radius: 0px  0px  10px  10px;
-}
-nav ul li {
-    display: inline-block;
-    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(117, 35, 155, 0.849);
     
 }
-
 .relogio{
     display: flex;
     align-items: center;
     justify-content: space-around;
     width: 200px;
-    height:  80px;  
+    height: 70px;  
     border-radius: 10px;
     box-shadow: 0px  2px  2px;
+    
 }
 .relogio div {
     margin: 10px;
