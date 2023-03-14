@@ -5,17 +5,12 @@
     
     font-family: Arial, Helvetica, sans-serif;
 }
-h1{
 
+span{
+    color: rgb(223, 9, 9);
 }
-h2{
 
-}
-h3{
-  
-
-}
-body{
+.pagina1{
    background-image: url('imagens/wallpaper002.jpg');
    width: 100vw;
    height: 100vh;
@@ -23,19 +18,18 @@ body{
    background-repeat: no-repeat;
    background-position: center center;
    background-size: cover;
+
 }
 
-header{
-    width: 100%;
-    height: 8vh;
-    background-color: rgba(31, 30, 30, 0.815);
-}
 .cabecalho{
    height: 100%;
    display: flex;
-   justify-content: space-around;
+   justify-content: space-around; /* justificar um espaco entre eles*/
    align-items: center;
    font-size: 17px;
+   width: 100%;
+   height: 8vh;
+   background-color: rgba(31, 30, 30, 0.815);
    
 }
 .titulo{
@@ -46,6 +40,8 @@ header{
 .cabecalho .links{
   display: flex;
   list-style: none;
+  
+  
 }
 .cabecalho .links a {
     text-decoration: none;
@@ -55,25 +51,24 @@ header{
 .cabecalho a:hover{
     color: red;
 }
-main{
-    height: 93vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .comentario{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
 
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .btns{
     display: flex;
     justify-content: center;
     gap: 20px;
 }
+
 .btns button{
     width: 250px;
     height: 50px;
@@ -98,7 +93,7 @@ main{
     position: absolute;
     width: 0;
     height: 50px;
-    background-color: rgba(88, 87, 87, 0.774);
+    background-color: rgba(138, 67, 67, 0.856);
     z-index: -1;
     transition: 1s;
 }
@@ -136,4 +131,5 @@ footer{
     text-align: center;
     font-size: 20px;
     font-weight: bolder;
+    color: red;
 }
