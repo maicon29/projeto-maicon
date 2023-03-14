@@ -133,3 +133,13 @@ footer{
     font-weight: bolder;
     color: red;
 }
+
+.logica {
+    display: flex;
+    margin: 20px; 
+    justify-content: space-around; 
+}
+.logica img{
+    border-radius: 20%;
+    
+}
