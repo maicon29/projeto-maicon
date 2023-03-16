@@ -1,16 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family= Passion +One & display=swap');
+
+:root{
+    --fonte1: 'Passion One' ,cursiva;
+ }
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Passion One', cursiva;
+}
+
+h1{
+    font-size: 2.5vw;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    
+}
+h2{
+    font-size: 4vw;
+    letter-spacing: 1px;
 }
 .pagina1{
     background-image: url('imagens/wallpaper002.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 90vh;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 13px black;
+
 }
 nav{
     display: flex;
@@ -37,7 +56,7 @@ nav a:hover{
     color: red;
 }
 .titulo{
-    font-size: 1.5rem;
+    font-size: 3vw;
     letter-spacing: .2rem;
     cursor: pointer;
 }
@@ -100,27 +119,31 @@ span{
 }
 .logica{
     display: inline-block;
-    background-color: rgba(71, 68, 68, 0.938);
+    text-align: center;
+    background-attachment: fixed;
 }
-.titulo2{
-   font-size: 15px;
-   font-weight: bolder;
-   text-align: center;
-}
+
 .logica p {
-   color: rgb(253, 248, 248);
-   letter-spacing: 1px;
+   line-height: 1.3em;
    margin: 10px;
+   text-align: justify;
+   text-indent: 30px;
+   font-size: 2vw;
+   font-weight: bolder;
 }
 .logica img{
     width: 100%;
     height: 250px;
     border-radius: 10px;
-
+    
 }
 .criador{
+    background-color: rgb(46, 44, 44);
     padding: 10px;
     text-align: center;
+    box-shadow: inset 6px 6px 13px 10px black;
+    background-attachment: fixed;
+    
 }
 .criador img{
     height: 200px;
@@ -128,7 +151,13 @@ span{
     border-radius: 10px;
 }
 .criador img:hover{
-    border: 2px solid rgb(10, 10, 10);
+    border: 2px solid rgb(255, 253, 253);
+}
+div#img02{
+    background-image: url('imagens/tecnologia.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }
 .social{
     padding-top: 30px;
@@ -136,8 +165,14 @@ span{
     border-radius: 10px;
     align-items: center;
     height: 300px;
-    background-color: rgba(53, 51, 51, 0.863);
     justify-content: space-around;   
+}
+div#img03{
+    background-image: url('');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .social img{
@@ -147,7 +182,7 @@ span{
    
 }
 .social img:hover{
-     border: 2px solid white;
+     border: 2px solid rgb(2, 2, 2);
 }
 footer{
     height: 50px;
