@@ -1,13 +1,14 @@
-
+/*
 :root{
     --fonte1: 'Passion One' ,cursiva;
  }
+*/
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Passion One', Arial, sans-serif;
+    font-family:Arial, sans-serif;
 }
 
 h1{
@@ -142,7 +143,12 @@ span{
     text-align: center;
     box-shadow: inset 6px 6px 13px 10px black;
     background-attachment: fixed;
-    
+}
+div#img02{
+    background-image: url('imagens/tecnologia.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }
 .criador img{
     height: 200px;
@@ -152,12 +158,7 @@ span{
 .criador img:hover{
     border: 2px solid rgb(255, 253, 253);
 }
-div#img02{
-    background-image: url('imagens/tecnologia.jpg');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-}
+
 .social{
     padding-top: 30px;
     text-align: center;
@@ -181,13 +182,14 @@ div#img03{
    
 }
 .social img:hover{
-     border: 2px solid rgb(2, 2, 2);
+    border: 2px solid rgb(2, 2, 2);
 }
 footer{
-    height: 50px;
-    margin-top: 20px;
+    background-color: rgba(26, 25, 25, 0.87);
+    color: red;
     text-align: center;
     font-size: 20px;
     font-weight: bolder;
-    color: red;
+    border-radius: 20px;
+   
 }
