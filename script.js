@@ -1,3 +1,5 @@
+
+
 const horas = document.getElementById('horas');
 const minutos = document.getElementById('minutos');
 const segundos = document.getElementById('segundos');
@@ -16,3 +18,5 @@ const relogio = setInterval(function time() {
      minutos.textContent = min;
      segundos.textContent = s;
 })
+
+window.alert('todos as fotos estao em processo de edicao desculpe pela qualidade das imagem essas so sao modelos obg.')
