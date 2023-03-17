@@ -25,7 +25,7 @@ h2{
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    height: 90vh;
+    height: 100vh;
     background-attachment: fixed;
     box-shadow: inset 6px 6px 13px 10px white;
 
@@ -120,6 +120,8 @@ span{
     display: inline-block;
     text-align: center;
     background-attachment: fixed;
+    border-radius: 10px;
+    
 }
 
 .logica p {
@@ -142,9 +144,10 @@ span{
     text-align: center;
     box-shadow: inset 6px 6px 13px 10px black;
     background-attachment: fixed;
+    border-radius: 10px;
 }
 div#img02{
-    background-image: url('imagens/tecnologia.jpg');
+    background-image: url('imagens/fundo-teste.avif');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
