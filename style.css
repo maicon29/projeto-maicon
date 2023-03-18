@@ -56,7 +56,6 @@ nav a:hover{
 .titulo{
     font-size: 2.4vw;
     letter-spacing: .2rem;
-    cursor: pointer;
 }
 span{
     color: rgb(223, 9, 9);
@@ -154,10 +153,9 @@ div#img02{
     margin: 15px;
     border-radius: 10px;
 }
-.criador img:hover{
-    border: 2px solid rgb(255, 253, 253);
+.criador button{
+    align-items: center;
 }
-
 .social{
     padding-top: 30px;
     text-align: center;
@@ -184,10 +182,28 @@ div#img03{
     border: 2px solid white;
 }
 footer{
-    background-color:rgba(27, 27, 27, 0.89);
     text-align: center;
     font-weight: bolder;
-    border-radius: 10px;
+}
 
-   
+
+.teste{
+  background-color:rgba(27, 27, 27, 0.89) ;
+  display: flex;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
+
+.teste img{
+   height: 200px;
+   margin: 15px;
+   border-radius: 10px;
+}
+
+.teste a:hover{
+    color: red;
+    text-decoration: none;
+    
 }
