@@ -135,7 +135,6 @@ span{
     border-radius: 10px;
 }
 .criadorfd{
-    display: block;
     padding: 10px;
     text-align: center;
     box-shadow: inset 6px 6px 13px 10px black;
@@ -169,20 +168,24 @@ div#img02{
     text-align: justify;
     box-shadow: 10px 10px 10px rgba(46, 45, 45, 0.753);
 }
-#botao {
+.card a{
     padding: 10px;
     border-radius: 10px;
     background-color: rgba(255, 0, 0, 0.89);
     color: white;
     font-weight: bolder;
+    text-align: center;
+    text-decoration: none;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
-  }
-  #botao:hover{
+    box-shadow: 10px 5px 10px 10px rgba(0, 0, 0, 0.822);
+
+}
+.card a:hover{
     background-color: transparent;
     color: red;
     transition: all 0.2s ease-in-out;
-  }
+}
 .social{
     padding-top: 30px;
     text-align: center;
@@ -212,5 +215,3 @@ footer{
     font-weight: bolder;
     padding: 10px;
 }
-
-
