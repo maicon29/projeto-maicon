@@ -134,12 +134,23 @@ span{
     height: 250px;
     border-radius: 10px;
 }
-.criador{
-    background-color:  rgba(26, 25, 25, 0.87);
+.criadorfd{
+    display: block;
     padding: 10px;
     text-align: center;
     box-shadow: inset 6px 6px 13px 10px black;
     background-attachment: fixed;
+    border-radius: 10px;
+}
+.fundo{
+    display: flex;
+    padding: 30px;
+    justify-content: space-around; 
+}
+  
+.criadorfd img{
+    height: 200px;
+    margin: 10px;
     border-radius: 10px;
 }
 div#img02{
@@ -148,14 +159,30 @@ div#img02{
     background-position: center center;
     background-size: cover;
 }
-.criador img{
-    height: 200px;
-    margin: 15px;
+.card{
+    background-color: rgba(255, 255, 255, 0.26);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
     border-radius: 10px;
+    text-align: justify;
+    box-shadow: 10px 10px 10px rgba(46, 45, 45, 0.753);
 }
-.criador button{
-    align-items: center;
-}
+#botao {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(255, 0, 0, 0.89);
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  #botao:hover{
+    background-color: transparent;
+    color: red;
+    transition: all 0.2s ease-in-out;
+  }
 .social{
     padding-top: 30px;
     text-align: center;
@@ -171,39 +198,19 @@ div#img03{
     background-size: cover;
     background-attachment: fixed;
 }
-
 .social img{
     height: 70px;
     margin: 10px;
     border-radius: 20px;
-   
 }
 .social img:hover{
     border: 2px solid white;
 }
 footer{
+    background-color: rgba(44, 43, 43, 0.63);
     text-align: center;
     font-weight: bolder;
+    padding: 10px;
 }
 
 
-.teste{
-  background-color:rgba(27, 27, 27, 0.89) ;
-  display: flex;
-  border-radius: 10px;
-  justify-content: center;
-  align-items: center;
-  height: 400px;
-}
-
-.teste img{
-   height: 200px;
-   margin: 15px;
-   border-radius: 10px;
-}
-
-.teste a:hover{
-    color: red;
-    text-decoration: none;
-    
-}
