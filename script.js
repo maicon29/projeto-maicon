@@ -19,4 +19,4 @@ const relogio = setInterval(function time() {
      segundos.textContent = s;
 })
 
-/*   window.alert('todos as fotos estao em processo de edicao desculpe pela qualidade das imagem essas so sao modelos obg.')*/
+ /* window.alert('todos as fotos estao em processo de edicao desculpe pela qualidade das imagem essas so sao modelos obg.')*/

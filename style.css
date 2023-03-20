@@ -103,26 +103,24 @@ span{
     align-items: center;
     justify-content: center;
     letter-spacing: 1px;
-    
 }
 .relogio span {
     font-weight: bolder;
-    font-size:  15px;
-    
+    font-size:  15px; 
 }
 .relogio span.tempo {
     font-size: 10px;
     color: aliceblue;
 }
 .logica{
+    background-color: rgba(0, 0, 0, 0.829);
     display: inline-block;
     text-align: center;
     background-attachment: fixed;
     border-radius: 10px;
-    
 }
-
 .logica p {
+    color: #fcfc;
    line-height: 1.3em;
    margin: 10px;
    text-align: justify;
@@ -134,7 +132,8 @@ span{
     height: 250px;
     border-radius: 10px;
 }
-.criadorfd{
+.criador{
+    background-color: rgba(0, 0, 0, 0.808);
     padding: 10px;
     text-align: center;
     box-shadow: inset 6px 6px 13px 10px black;
@@ -143,19 +142,16 @@ span{
 }
 .fundo{
     display: flex;
-    padding: 30px;
-    justify-content: space-around; 
-}
-  
-.criadorfd img{
-    height: 200px;
+    justify-content: center;
+    flex-wrap: wrap;
     margin: 10px;
-    border-radius: 10px;
+    gap: 10px;
+    
+   
 }
 div#img02{
     background-image: url('imagens/fundo-teste.avif');
     background-repeat: no-repeat;
-    background-position: center center;
     background-size: cover;
 }
 .card{
@@ -167,6 +163,14 @@ div#img02{
     border-radius: 10px;
     text-align: justify;
     box-shadow: 10px 10px 10px rgba(46, 45, 45, 0.753);
+
+    
+
+}
+.card img{
+    height: 200px;
+    margin: 5px;
+    border-radius: 10px;
 }
 .card a{
     padding: 10px;
@@ -179,7 +183,6 @@ div#img02{
     cursor: pointer;
     transition: all 0.2s ease-in-out;
     box-shadow: 10px 5px 10px 10px rgba(0, 0, 0, 0.822);
-
 }
 .card a:hover{
     background-color: transparent;
@@ -187,6 +190,7 @@ div#img02{
     transition: all 0.2s ease-in-out;
 }
 .social{
+    background-color: rgba(0, 0, 0, 0.836);
     padding-top: 30px;
     text-align: center;
     border-radius: 10px;
