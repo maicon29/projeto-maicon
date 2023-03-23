@@ -1,6 +1,6 @@
 
 :root{
-    --fonte1: 'Passion One' ,cursiva;
+    --fonte1: 'Passion One', cursiva;
  }
 *{
     margin: 0;
@@ -9,29 +9,30 @@
     font-family:Arial, sans-serif;
 }
 h1{
+    color: white;
     margin-top:30px ;
     font-weight: bolder;
     letter-spacing: 1px;
 }
 h2{
+    color: white;
     letter-spacing: 1px;
 }
 .pagina1{
-    background-image: url('imagens/fundo-teste.avif');
+    background-image: url('imagens/fundo.png');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 95vh;
     background-attachment: fixed;
-    box-shadow: inset 4px 4px 7px 7px rgba(255, 255, 255, 0.74);
-    border-radius: 10px;
+    box-shadow: inset 4px 4px 7px  rgba(8, 8, 8, 0.74);
 }
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
     position: fixed;
-    background-color:  rgba(94, 92, 92, 0.781);
+    background-color:  rgba(10, 10, 10, 0.829);
     width: 100%;  
     border-radius: 0px 0px 10px 10px;
     
@@ -65,12 +66,14 @@ span{
     height: 90vh;
 }
 .btns{
+    
     display: flex;
     justify-content: center;
 }
 .btns button{
-    width: 120px;
-    height: 40px;
+    color: white;
+    width: 220px;
+    height: 50px;
     cursor: pointer;
     border-radius: 10px;
     border: 2px solid white;
@@ -179,8 +182,9 @@ span{
     transition: all 0.2s ease-in-out;
 }
 div#img02{
-    background-image: url('imagens/fundo-teste.avif');
+    background-image: url('imagens/Logica.jpg');
     background-repeat: no-repeat;
+    background-position: center center;
     background-size: cover;
 }
 .social{
